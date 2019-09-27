@@ -20,21 +20,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
-                <TextView
-                    android:id="@+id/textLMS"
-                    android:layout_width="76dp"
-                    android:layout_height="31dp"
-                    android:layout_marginStart="122dp"
-                    android:layout_marginLeft="122dp"
-                    android:layout_marginTop="76dp"
-                    android:layout_marginEnd="110dp"
-                    android:layout_marginRight="110dp"
-                    android:text="textLms"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.4"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
-
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:id="@+id/constraintLayout"
                     android:layout_width="411dp"
@@ -79,6 +64,7 @@
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
+
             </androidx.constraintlayout.widget.ConstraintLayout>
         </LinearLayout>
     </LinearLayout>
