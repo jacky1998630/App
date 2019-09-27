@@ -16,29 +16,36 @@
             android:layout_height="wrap_content"
             android:text="Hello World!" />
 
-        <Button
-            android:id="@+id/button"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Button" />
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Button" />
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="160dp"
+                android:layout_height="157dp"
+                android:text="Button" />
 
-        <Button
-            android:id="@+id/button3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Button" />
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="164dp"
+                android:layout_height="160dp"
+                android:text="Button" />
 
-        <Button
-            android:id="@+id/button4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Button" />
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="158dp"
+                android:layout_height="155dp"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="156dp"
+                android:layout_height="115dp"
+                android:text="Button"
+                android:verticalScrollbarPosition="defaultPosition" />
+        </LinearLayout>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

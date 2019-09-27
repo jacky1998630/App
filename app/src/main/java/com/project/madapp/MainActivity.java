@@ -10,10 +10,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        button = findViewByID(r.id.);
-        button2 = findViewByID(r.id.);
-        button3 = findViewByID(r.id.);
-        button4 = findViewByID(r.id.);
+        button = findViewByID(r.id.one);
+        button2 = findViewByID(r.id.two);
+        button3 = findViewByID(r.id.three);
+        button4 = findViewByID(r.id.four);
 
 
     }
