@@ -65,6 +65,14 @@
                         app:layout_constraintTop_toTopOf="parent" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="407dp"
+                    android:layout_height="227dp"
+                    app:srcCompat="@drawable/logo"
+                    tools:layout_editor_absoluteX="2dp"
+                    tools:layout_editor_absoluteY="91dp" />
+
             </androidx.constraintlayout.widget.ConstraintLayout>
         </LinearLayout>
     </LinearLayout>
