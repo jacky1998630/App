@@ -4,30 +4,37 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
+import android.widget.Toast;
 
 
-public class MainActivity extends AppCompatActivity {
-     button button;
-     textView textView;
-     button2 button2;
-     button3 button3;
-     button4 button4;
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        textView = findViewID(r.id.textLMS);
-        button = findViewByID(r.id.Bone);
-        button2 = findViewByID(r.id.Btwo);
-        button3 = findViewByID(r.id.Bthree);
-        button4 = findViewByID(r.id.Bfour);
+        Button Bone = findViewById(R.id.Bone);
+        Button Btwo = findViewById(R.id.Btwo);
+        Button Bthree = findViewById(R.id.Bthree);
+        Button Bfour = findViewById(R.id.Bfour);
 
-        button.setOnClickListener(new View.onClickListener() {
-         public void onClick(View v) {
-         }
+        Bone.setOnClickListener(this);
+        Btwo.setOnClickListener(this);
+        Bthree.setOnClickListener(this);
+        Bfour.setOnClickListener(this);
+
         }
         }
 
 
+    @Override
+    public void onClick(View view) {
+     switch(v.getId()){
+         case R.id.Bone:
+             Toast.makeText()
     }
+}
 }
