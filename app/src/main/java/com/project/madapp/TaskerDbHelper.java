@@ -7,6 +7,8 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteDatabase.CursorFactory;
 import android.database.sqlite.SQLiteOpenHelper;
 
+import com.project.madapp.ui.MyAdapter;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -20,7 +22,7 @@ public class TaskerDbHelper extends SQLiteOpenHelper {
     private static final String KEY_ID = "id";
     private static final String KEY_TASKNAME = "taskName";
     private static final String KEY_STATUS = "status";
-    public TaskerDbHelper(Context context) {
+    public TaskerDbHelper(MyAdapter context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
     }
     @Override

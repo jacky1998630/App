@@ -11,6 +11,5 @@ public class tasker extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.tasker);
 
-        https://www.codercrunch.com/post/47915445/build-a-todo-app-in-android
     }
 }
