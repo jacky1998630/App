@@ -32,7 +32,7 @@
                     app:layout_constraintVertical_bias="0.444">
 
                     <Button
-                        android:id="@+id/btwo"
+                        android:id="@+id/Btwo"
                         android:layout_width="205.5dp"
                         android:layout_height="181dp"
                         android:text="Two"
@@ -48,7 +48,7 @@
                         app:layout_constraintEnd_toEndOf="parent" />
 
                     <Button
-                        android:id="@+id/bthree"
+                        android:id="@+id/Bthree"
                         android:layout_width="205.5dp"
                         android:layout_height="181dp"
                         android:text="Three"
