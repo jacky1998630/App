@@ -10,8 +10,6 @@ import android.widget.CheckBox;
 import android.widget.ListView;
 
 import com.project.madapp.R;
-import com.project.madapp.Task;
-import com.project.madapp.TaskerDbHelper;
 
 import java.util.ArrayList;
 import java.util.List;
