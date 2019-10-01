@@ -35,7 +35,7 @@
                         android:id="@+id/Btwo"
                         android:layout_width="205.5dp"
                         android:layout_height="181dp"
-                        android:text="Two"
+                        android:text="Subject 2"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
 
@@ -43,7 +43,7 @@
                         android:id="@+id/Bfour"
                         android:layout_width="205.5dp"
                         android:layout_height="181dp"
-                        android:text="Four"
+                        android:text="Subject 4"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -51,7 +51,7 @@
                         android:id="@+id/Bthree"
                         android:layout_width="205.5dp"
                         android:layout_height="181dp"
-                        android:text="Three"
+                        android:text="Subject 3"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="parent" />
 
@@ -59,7 +59,7 @@
                         android:id="@+id/Bone"
                         android:layout_width="205.5dp"
                         android:layout_height="181dp"
-                        android:text="One"
+                        android:text="Subject 1"
                         android:verticalScrollbarPosition="defaultPosition"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />

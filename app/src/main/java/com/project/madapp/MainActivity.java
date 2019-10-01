@@ -32,9 +32,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View view) {
-     switch(v.getId()){
-         case R.id.Bone:
-             Toast.makeText()
+
     }
 }
 }
