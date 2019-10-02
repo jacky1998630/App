@@ -26,11 +26,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-               openActivity2();
+               opentasker();
             }
         });
-            public void openActivity2() {
-                Intent intent = new Intent(this, Activity2.class);
+            public void opentasker() {
+                Intent intent = new Intent(this, tasker.class);
                 startActivity(intent);
         }
         Bone.setOnClickListener(this);
