@@ -17,34 +17,32 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         Button Bone = findViewById(R.id.Bone);
         Button Btwo = findViewById(R.id.Btwo);
         Button Bthree = findViewById(R.id.Bthree);
         Button Bfour = findViewById(R.id.Bfour);
+        Button Button = findViewById(R.id.todo);
 
-        button = (Button) findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-               opentasker();
+                opentasker();
             }
         });
-            public void opentasker() {
-                Intent intent = new Intent(this, tasker.class);
-                startActivity(intent);
         }
-        Bone.setOnClickListener(this);
+        public void opentasker() {
+        Intent intent = new Intent(this, tasker.class);
+        startActivity(intent);
+    }
+        /*Bone.setOnClickListener(this);
         Btwo.setOnClickListener(this);
         Bthree.setOnClickListener(this);
-        Bfour.setOnClickListener(this);
-
-        }
-        }
-
+        Bfour.setOnClickListener(this);*/
 
     @Override
     public void onClick(View view) {
 
     }
 }
-}
+

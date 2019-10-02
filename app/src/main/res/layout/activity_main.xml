@@ -84,12 +84,12 @@
                     app:srcCompat="@drawable/logo" />
 
                 <Button
-                    android:id="@id/button"
+                    android:id="@+id/todo"
                     android:layout_width="101dp"
                     android:layout_height="54dp"
                     android:text="open tasker"
-                    tools:layout_editor_absoluteX="2dp"
-                    tools:layout_editor_absoluteY="37dp" />
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
         </LinearLayout>
