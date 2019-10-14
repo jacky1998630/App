@@ -79,14 +79,17 @@
                     android:layout_marginBottom="51dp"
                     app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
                     app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0"
                     app:srcCompat="@drawable/logo" />
 
                 <Button
                     android:id="@+id/todo"
-                    android:layout_width="101dp"
-                    android:layout_height="54dp"
+                    android:layout_width="121dp"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="336dp"
                     android:text="open tasker"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
