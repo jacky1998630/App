@@ -31,6 +31,7 @@
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintVertical_bias="0.444">
 
+
                     <Button
                         android:id="@+id/Btwo"
                         android:layout_width="205.5dp"
@@ -90,6 +91,13 @@
                     android:text="open tasker"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="open downloads page"/>
+
+
 
             </androidx.constraintlayout.widget.ConstraintLayout>
         </LinearLayout>

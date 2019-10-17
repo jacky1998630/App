@@ -13,16 +13,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
     private Button button;
+    private Button button2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         Button Bone = findViewById(R.id.Bone);
         Button Btwo = findViewById(R.id.Btwo);
         Button Bthree = findViewById(R.id.Bthree);
         Button Bfour = findViewById(R.id.Bfour);
-        Button Button = findViewById(R.id.todo);
+        Button button = findViewById(R.id.todo);
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -30,19 +30,21 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 opentasker();
             }
         });
+        button2.setOnClickListener();
         }
         public void opentasker() {
         Intent intent = new Intent(this, tasker.class);
         startActivity(intent);
     }
-        /*Bone.setOnClickListener(this);
-        Btwo.setOnClickListener(this);
-        Bthree.setOnClickListener(this);
-        Bfour.setOnClickListener(this);*/
+         public void opendownloadspage(){
+         Intent intent = new Intent(this, )
+         }
+
 
     @Override
     public void onClick(View view) {
 
     }
+
 }
 
