@@ -7,7 +7,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-
 import com.project.madapp.ui.downloads;
 
 
@@ -27,12 +26,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Button Bthree = findViewById(R.id.Bthree);
         Button Bfour = findViewById(R.id.Bfour);
         Button button = findViewById(R.id.todo);
-
+        Button btnMove = findViewById(R.id.btn1);
         subChange = findViewById(R.id.Bone);
         subChange = findViewById(R.id.Btwo);
         subChange = findViewById(R.id.Bthree);
         subChange = findViewById(R.id.Bfour);
-        btnMove = findViewById(R.id.btn1);
+
 
         subChange.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -42,31 +41,39 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         });
 
         btnMove.setOnClickListener(new View.OnClickListener() {
-                                       @Override
-                                       public void onClick(View view) {
-                                        moveToActivtyDownloads();
-                                       }
-                                   }
+            @Override
+            public void onClick(View view) {
+                moveToActivtyDownloads();
+            }
+        });
 
-                button.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View view) {
-                        opentasker();
-                    }
-                });
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                opentasker();
+            }
+        });
+
+        Bone.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                moveToSubjects();
+            }
+        });
 
         }
         public void opentasker() {
-        Intent intent = new Intent(this, tasker.class);
+        Intent intent = new Intent(MainActivity.this, tasker.class);
         startActivity(intent);
-    }
+        }
          private void moveToActivtyDownloads(){
          Intent intent = new Intent(MainActivity.this, downloads.class);
          startActivity(intent);
          }
 
          private void  moveToSubjects(){
-                  Intent intent = new Intent(MainActivity.this, subject.class)
+        Intent intent = new Intent(MainActivity.this, subject.class);
+        startActivity(intent);
          }
 
 
