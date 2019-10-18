@@ -6,14 +6,17 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Toast;
+
+
+import com.project.madapp.ui.downloads;
 
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
 
     private Button button;
-    private Button button2;
+    private Button btnMove;
+    private Button subChange;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,21 +26,45 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Button Bthree = findViewById(R.id.Bthree);
         Button Bfour = findViewById(R.id.Bfour);
         Button button = findViewById(R.id.todo);
+        subChange = findViewById(R.id.Bone);
+        subChange = findViewById(R.id.Btwo);
+        subChange = findViewById(R.id.Bthree);
+        subChange = findViewById(R.id.Bfour);
+        btnMove = findViewById(R.id.btn1);
 
-        button.setOnClickListener(new View.OnClickListener() {
+        subChange.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                opentasker();
+                moveToSubjects();
             }
         });
-        button2.setOnClickListener();
+
+        btnMove.setOnClickListener(new View.OnClickListener() {
+                                       @Override
+                                       public void onClick(View view) {
+                                        moveToActivtyDownloads();
+                                       }
+                                   }
+
+                button.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        opentasker();
+                    }
+                });
+
         }
         public void opentasker() {
         Intent intent = new Intent(this, tasker.class);
         startActivity(intent);
     }
-         public void opendownloadspage(){
-         Intent intent = new Intent(this, )
+         private void moveToActivtyDownloads(){
+         Intent intent = new Intent(MainActivity.this, downloads.class);
+         startActivity(intent);
+         }
+
+         private void  moveToSubjects(){
+                  Intent intent = new Intent(MainActivity.this, subject.class)
          }
 
 
