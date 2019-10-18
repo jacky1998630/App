@@ -21,11 +21,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         Button Bone = findViewById(R.id.Bone);
         Button Btwo = findViewById(R.id.Btwo);
         Button Bthree = findViewById(R.id.Bthree);
         Button Bfour = findViewById(R.id.Bfour);
         Button button = findViewById(R.id.todo);
+
         subChange = findViewById(R.id.Bone);
         subChange = findViewById(R.id.Btwo);
         subChange = findViewById(R.id.Bthree);
