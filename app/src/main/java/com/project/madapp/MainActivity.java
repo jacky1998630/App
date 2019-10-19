@@ -16,24 +16,45 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button button;
     private Button btnMove;
     private Button subChange;
+    private Button subChange2;
+    private Button subChange3;
+    private Button subChange4;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button Bone = findViewById(R.id.Bone);
-        Button Btwo = findViewById(R.id.Btwo);
-        Button Bthree = findViewById(R.id.Bthree);
-        Button Bfour = findViewById(R.id.Bfour);
-        Button button = findViewById(R.id.todo);
-        Button btnMove = findViewById(R.id.btn1);
+        button = findViewById(R.id.todo);
+        btnMove = findViewById(R.id.btn1);
         subChange = findViewById(R.id.Bone);
-        subChange = findViewById(R.id.Btwo);
-        subChange = findViewById(R.id.Bthree);
-        subChange = findViewById(R.id.Bfour);
+        subChange2 = findViewById(R.id.Btwo);
+        subChange3 = findViewById(R.id.Bthree);
+        subChange4 = findViewById(R.id.Bfour);
+
 
 
         subChange.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                moveToSubjects();
+            }
+        });
+
+        subChange2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                moveToSubjects();
+            }
+        });
+
+        subChange3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                moveToSubjects();
+            }
+        });
+
+        subChange4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 moveToSubjects();
@@ -54,12 +75,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
         });
 
-        Bone.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                moveToSubjects();
-            }
-        });
 
         }
         public void opentasker() {
