@@ -15,11 +15,6 @@ import androidx.navigation.ui.NavigationUI;
 
 public class subject extends AppCompatActivity {
 
-    Button button;
-    WebView webView;
-    TextView textView;
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,8 +28,6 @@ public class subject extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(navView, navController);
-
-
     }
 
 }

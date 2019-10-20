@@ -26,6 +26,7 @@
         tools:layout_editor_absoluteY="160dp">
 
         <WebView
+            android:id="@+id/aweb"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
     </LinearLayout>

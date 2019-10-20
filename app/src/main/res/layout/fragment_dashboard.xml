@@ -19,8 +19,10 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <WebView
+        android:id="@+id/dweb"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:layout_editor_absoluteX="288dp"
         tools:layout_editor_absoluteY="324dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
