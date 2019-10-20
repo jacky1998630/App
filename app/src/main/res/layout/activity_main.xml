@@ -54,7 +54,6 @@
                 android:layout_width="205.5dp"
                 android:layout_height="181dp"
                 android:text="Subject 1"
-                android:textAllCaps="false"
                 android:verticalScrollbarPosition="defaultPosition"
                 app:layout_constraintBottom_toTopOf="@+id/Bthree"
                 app:layout_constraintStart_toStartOf="parent"
@@ -90,7 +89,7 @@
 
         <Button
             android:id="@+id/btn1"
-            android:layout_width="206dp"
+            android:layout_width="204dp"
             android:layout_height="48dp"
             android:layout_centerInParent="true"
             android:layout_marginStart="32dp"
@@ -101,7 +100,7 @@
             android:textColor="#E0F7FA"
             app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.96"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toEndOf="@+id/todo"
             app:layout_constraintTop_toBottomOf="@+id/imageView2"
             app:layout_constraintVertical_bias="1.0" />
