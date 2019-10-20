@@ -16,22 +16,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-    <Button
-        android:id="@+id/btn2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="open downloads page"
-        android:layout_centerInParent="true"
-        tools:layout_editor_absoluteX="110dp"
-        tools:layout_editor_absoluteY="0dp" />
-
 
 
     <LinearLayout
-        android:layout_width="409dp"
-        android:layout_height="671dp"
+        android:layout_width="match_parent"
+        android:layout_height="673dp"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="0dp"
         android:orientation="vertical"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="58dp">
-    </LinearLayout>
+        tools:layout_editor_absoluteY="58dp"/>
 </RelativeLayout>

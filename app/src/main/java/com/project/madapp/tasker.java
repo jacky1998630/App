@@ -53,7 +53,6 @@ public class tasker extends AppCompatActivity {
         getMenuInflater().inflate(R.menu.main_menu, menu);
         this.updateUI();
         return super.onCreateOptionsMenu(menu);
-
     }
 
     @Override
@@ -125,7 +124,6 @@ public class tasker extends AppCompatActivity {
             mAdapter.addAll(taskList);
             mAdapter.notifyDataSetChanged();
         }
-
         cursor.close();
         db.close();
     }
